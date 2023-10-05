@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://vjs.zencdn.net/8.5.2/video-js.css" rel="stylesheet" />
+    <script defer src="https://vjs.zencdn.net/8.5.2/video.min.js"></script>
+    <title>VerbumTV Live</title>
+</head>
+<body>
+  <div class="header" id="myHeader">
+    <div class="back">
+    <a href="index.html">
+      <img src="./img/arrow.png" width="32" alt="back">
+    </a>
+    </div>
+    <div class="name">
+    <h2>Verbum TV</h2>
+    </div>
+</div>
+<div class="content">
+    <div class="tvplay">
+      <video
+      id="my-video"
+      class="video-js"
+      width="460"
+      controls
+      preload="auto"
+  
+      poster="./img/verbam.png"
+      data-setup="{}">
+  
+      <source src="https://verbumtv.livebox.co.in/verbumtvhls/live.m3u8" 
+      type="application/x-mpegURL">
+    </video>
+    </div>
+
+  </div>
+</body>
+</html>
